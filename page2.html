@@ -13,15 +13,30 @@
          
         }
        </style>
+           <style type="text/css">
+            A:link { 
+             text-decoration: none; /* Убирает подчеркивание для ссылок */
+            } 
+            A:visited { text-decoration: none; } 
+            A:active { text-decoration: none; }
+            A.link1 { color: rgb(0, 0, 0); }
+            A.link2 { color: rgb(255, 255, 255); }
+            A:hover {
+             text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
+             color:rgb(190, 30, 30); /* Цвет ссылки */
+            } 
+           </style>
 </head>
 <body>
+    
+    
     <h1>Каталог</h1>
     <figure class="sign">
         <div class="photo">
         <p><img src="syrnik1.jpg" width="280" height="200" alt="Сырник1"></p>
         <div>
         
-        <figcaption> <a href="page3.html">Сырник пышный</a></figcaption>
+        <figcaption> <a href="page3.html" class="link1">Сырник пышный</a></figcaption>
   
         <figcaption> 170 руб/шт </figcaption>
     </figure>
@@ -41,8 +56,9 @@
         <figcaption> 100 руб/шт </figcaption>
 
        </figure>
-       
+       <footer  style="background: navy; color: oldlace;">  <pre>
 <hr>
-<a href="page1.html"><=На главную страницу</a>
+<a href="page1.html" class="link2"><=На главную страницу</a>
+</pre></footer>
 </body>
 </html>
